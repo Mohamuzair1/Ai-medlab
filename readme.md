@@ -95,9 +95,6 @@ The project is structured into two main directories:
 - Access the application at `http://localhost:5173`.
 - Use the frontend interface to interact with the different modules (Customer, Doctor, Lab Assistant).
 
-## Contributors
-
-- AI MedLab Team
 
 ## Collaboration
 
@@ -113,25 +110,16 @@ We welcome contributions from everyone! If you are interested in contributing to
 For major changes, please open an issue first to discuss what you would like to change.
 
 Feel free to reach out to us with any questions or suggestions. Let's collaborate to extend the exposure and impact of this project!
+screenshots:
+<img width="1918" height="1079" alt="Screenshot 2025-11-27 220130" src="https://github.com/user-attachments/assets/bbe24d58-1f7b-45f5-bbd7-027a5393e64b" />
+<img width="1918" height="1079" alt="Screenshot 2025-11-27 215836" src="https://github.com/user-attachments/assets/7b1c0fbe-e258-48db-a4b3-55d9d9b6dc23" />
 
+<img width="1918" height="1079" alt="Screenshot 2025-11-27 215902" src="https://github.com/user-attachments/assets/28a58477-8d32-4c10-8274-0794ec7300dc" />
+<img width="1917" height="1078" alt="Screenshot 2025-11-27 215921" src="https://github.com/user-attachments/assets/c3236557-98ea-4bea-b5f0-dd1396ef7b6b" />
 
-## License
-This project is licensed under the MIT License. See `LICENSE` for details.
+<img width="1906" height="1066" alt="Screenshot 2025-11-27 215933" src="https://github.com/user-attachments/assets/0ee06fde-a7e8-4ffb-be66-caf6c294c940" />
 
----
+<img width="1919" height="1072" alt="Screenshot 2025-11-27 215951" src="https://github.com/user-attachments/assets/7c134c0a-fea9-4038-aee5-04e351fe3bed" />
 
-Email sending configuration
+---<img width="1918" height="1079" alt="Screenshot 2025-11-27 220015" src="https://github.com/user-attachments/assets/353dd339-c9c8-4c7f-8395-cd449176761e" />
 
-The backend supports sending emails (contact form, password reset) via Gmail SMTP. To enable this, create a `.env` file in the `backend/` folder and set these variables:
-
-```
-MONGO_URL=mongodb://127.0.0.1:27017/ai-medlab
-PORT=8000
-USER=your.email@gmail.com       # SMTP username (your Gmail address)
-APP_PASS=your_app_password      # Gmail App Password (recommended)
-MAIL_FROM_NAME=AI MedLab Team
-MAIL_TO=recipient@example.com   # where contact/forgot emails are sent
-FRONTEND_URL=http://localhost:5173
-```
-
-Note: Use a Gmail App Password instead of your account password. If you prefer a different SMTP provider, set `USER` and `APP_PASS` accordingly and update transporter settings in `backend/Routes/*.js`.
